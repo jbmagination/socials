@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>i say stuff</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <noscript>
+      <link href="./fontawesome/css/fontawesome.min.css" rel="stylesheet">
+      <link href="./fontawesome/css/brands.min.css" rel="stylesheet">
+    </noscript>
+    <script defer src="./fontawesome/js/brands.min.js"></script>
+    <script defer src="./fontawesome/js/fontawesome.min.js"></script>
+    <link href="./style.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1><u><i>i say stuff</i></u></h1>
+    <h2>find me on <a class="x-twitter" href="https://x.com/JBMagination"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i><i class="fa-brands fa-twitter" aria-hidden="true"></i> x/twitter</a> and <a class="mastodon" href="https://mastodon.social/@jbmagination"><i class="fa-brands fa-mastodon" aria-hidden="true"></i> mastodon</a></h2>
+    <p>
+      ...or 
+      <a href="https://bsky.app/profile/jbmagination.com">bluesky</a>,
+      <a href="https://www.threads.net/@jbmagination">threads</a>, 
+      <a href="https://cohost.org/JBMagination">cohost</a>,
+      <a href="https://substack.com/@jbmagination">substack notes</a>,
+      <a href="https://spoutible.com/JBMagination">spoutible</a>,
+      <a href="https://truthsocial.com/@JBMagination">truth social</a>, 
+      <a href="https://gab.com/JBMagination">gab</a>,
+      <a href="https://www.reddit.com/u/JBMagination">reddit</a>, 
+      <a href="https://genius.com/JBMagination">genius</a>
+    </p>
+    <p>•</p>
+    <div>
+      <h3>why are you on [insert politically charged platform here]?</h3>
+      <p>i, of course, am not politically aligned with some of the platforms i am on. i do, however, think being on those platforms opens me up to understanding (or at the very least, observing) what is going through their head. some people really don't like me on other platforms... but that won't stop me from trying to be friendly with them, as i would hope they would do to me. i also hope that it helps what i do - music, coding, political activism, etc. - reach a wider target audience than it otherwise would: i'm sure there are many people who are only allowed to be on a few platforms, and wouldn't know about me or what i do otherwise.</p>
+    </div>
+    <p>•</p>
+    <p style="font-size:75%"><a href="https://jbmagination.com">i make stuff</a> | <a href="mailto:business@jbmagination.com">business inquiries</h2>
+    <script>
+      // @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt PublicDomain
+      Array.from(document.getElementsByTagName('a')).forEach((a) => {
+        a.addEventListener("click", (event) => {
+          event.preventDefault();
+          var hostname = new URL(event.currentTarget.href).hostname;
+          var sameHost = ((hostname == window.location.hostname) || (hostname == 'jbmagination.com') || (hostname == ''));
+          if (sameHost) window.location = event.currentTarget.href;
+          else if (confirm('You\'re about to head to ' + hostname + ', which follows a different privacy policy.')) window.location = event.currentTarget.href;
+        });
+      });
+      // @license-end
+    </script>
+    <a href="./weblabels.html" rel="jslicense" data-jslicense="1"></a>
+  </body>
+</html>
