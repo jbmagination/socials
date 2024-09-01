@@ -39,15 +39,15 @@ a.x-twitter:after {
   bottom: 0;
   left: 0;
   width: 0%;
-  border-bottom: 2px solid #D3D3D3;
+  border-bottom: 2px solid #A9A9A9;
   transition: 0.4s;
 }
 a.x-twitter:hover:after {
   width: 100%;
-  color: #D3D3D3;
+  color: #A9A9A9;
 }
 a.x-twitter:hover {
-  color: #D3D3D3;
+  color: #A9A9A9;
 }
 a.mastodon:after {
   content: '';
